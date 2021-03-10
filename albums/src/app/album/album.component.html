@@ -1,0 +1,16 @@
+<div id="addi">
+  <i>Title of album:</i><input #inp1>
+  <i>User ID of album:</i><input #inp2>
+  <button (click)="addIt(inp1.value, inp2.value)" class="btnAdd"><img src="https://p7.hiclipart.com/preview/535/334/430/computer-icons-clip-art-add-button.jpg" id="addBtn"></button>
+</div>
+<p>There are list of Albums: </p>
+<div>
+  <ul class="list">
+    <li *ngFor="let alb of albumServiceService.albums" class="items">
+      <a routerLink="/album/{{alb.id}}">{{alb.title}}</a>
+      <button class="removen" (click)="removeIt(alb)"><img src="https://img.favpng.com/10/2/18/button-icon-png-favpng-Qu52qjHZFm9qNNzVYBMx1YJJ2_t.jpg" id="removeBtn"></button>
+    </li>
+  </ul>
+</div>
+
+

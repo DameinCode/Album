@@ -1,0 +1,16 @@
+<!--<div>-->
+<!--  <nav>-->
+<!--    <a routerLink="photos">Photos</a>-->
+<!--  </nav>-->
+<!--  <router-outlet></router-outlet>-->
+<!--</div>-->
+<p>userId: {{album.userId}} </p>
+<p>id: {{album.id}}</p>
+<p>title: {{album.title}} </p>
+<div class="changing">
+  <p>Change title</p>
+  <input [(ngModel)]="album.title">
+</div>
+<a class="Photo" routerLink="photos">Photos</a>
+<!--<div></div>-->
+<button class="back" (click)="goBack()">Go back</button>

@@ -1,0 +1,14 @@
+a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Roboto Thin", sans-serif;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  color: black;
+  padding: 5px;
+  margin-left: 2%;
+  position: relative;
+}
+a:hover{
+  background-color: #efefef;
+}

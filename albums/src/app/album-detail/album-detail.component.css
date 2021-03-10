@@ -1,0 +1,44 @@
+*{
+  text-align: center;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 600px;
+}
+.seePhoto{
+  margin-left: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid silver;
+  background-color: moccasin;
+  padding: 5px;
+}
+input{
+  border: 1px solid silver;
+  background-color: #eee;
+  height: 100%;
+  outline: none;
+  height: 20px;
+  width: 200px;
+}
+input:focus{
+  background-color: white;
+}
+p{
+  margin: 5px auto;
+  font-size: 16px;
+  font-family: Tahoma;
+}
+.changeTitle{
+  text-align: center;
+}
+.changeTitle{
+  margin-top: 100px;
+}
+.back{
+  margin-left: 610px;
+  padding: 6px;
+  cursor: pointer;
+}
