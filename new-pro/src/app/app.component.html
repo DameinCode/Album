@@ -1,0 +1,9 @@
+<div class = "contauner">
+  <h1>{{ apptitle }}</h1>
+  <app-to-do
+    [todos] = "todos"
+    (onToggle) = "onToggle($event)">
+  </app-to-do>
+</div>
+
+

@@ -1,0 +1,11 @@
+<ul>
+  <li *ngFor="let todo of todos; let i = index">
+    <span [class.done] = "todo.status">
+      <input type="checkbox" [checked]="todo.status" (change)="onChange(todo.id)" )>
+      <strong>{{i+1}}</strong>
+    {{todo.type}}
+    </span>
+    <small>{{todo.id}}</small>
+    <button class = "rm">&times;</button>
+  </li>
+</ul>
