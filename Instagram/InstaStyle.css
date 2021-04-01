@@ -1,0 +1,273 @@
+body {
+    background:#f7f7f7;  
+}
+
+#image #im1{
+    position: absolute;
+    height: 618px;
+    width: 450px;
+    z-index:1;
+    float:left;
+}
+
+#image #im2 {
+    z-index:2;
+    width: 245px; 
+    height: 435px;
+    position: relative;
+    margin-top: 96px;
+    margin-left: 146px;
+}
+
+#image {
+    /* background-color:blue; */
+    width: 430px;
+    height: 618px;
+    margin-top: 25px;
+    margin-left: 190px;
+    float: left;
+}
+
+
+#login {
+    background-color: #fff;
+    float:right;
+    margin-top: 55px;
+    margin-right: 223px;
+    height: 380px;
+    width: 350px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+    border:solid 1px #ccc;
+}
+
+/* #login h1{ 
+    font-family: 'Billabong';
+    font-style: italic; 
+    
+    height: 51px;
+    width: 175px;
+    
+} */
+
+
+#login #image {
+    width: 56%;
+    height: 60px;
+    margin-left: 70px;
+    margin-top: 20px;
+    border: none;
+}
+
+#sign {
+    /* background-color: yellow; */
+    float: right;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    margin-right: 223px;
+    width: 350px;
+    border:solid 1px #ccc;
+}
+
+#sign #Insign p {
+    position: auto;
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+    color: rgba(var(--i1d,38,38,38),1);
+}
+
+#sign #inSign a {
+    display: inline!important;
+    margin: 0!important;
+    text-decoration: none;
+    color: rgba(var(--d69,0,149,246),1);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#inSign {
+    /* background-color: teal; */
+    margin: 0 auto;
+    padding-top: 7px;
+}
+
+#login form input[type="text"]{
+    width: 72%;
+    padding-top: 11px;
+    margin-top: 40px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    background-color: #f7f7f7;
+    border:solid 1px #ccc;
+    border-radius: 3px;
+}
+
+#login form input[type="password"] {
+    width: 72%;
+    padding-top: 11px;
+    padding-left: 5px;
+    font-size: 12px;
+    padding-bottom: 9px;
+    background-color: #f7f7f7;
+    border:solid 1px #ccc;
+    border-radius: 3px;
+    margin-bottom: 18px;
+}
+
+#login form button {
+    width: 75%;
+    height: 31px;
+    font-weight: bolder;
+    background-color: #1877f2;
+    color: #fff;
+    border:none;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+/* #inDiv {
+    background-color: thistle;
+} */
+
+#second p {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+#login #or {
+    position:relative;
+    padding-top: 15px;
+    width: 75%;
+    margin-top: 3px;
+    margin-left: 43px;
+    /* color: #ccc; */
+    /* background-color: tomato; */
+}
+#login #or hr {
+    color: #ccc;
+}
+
+#login #or .text {
+    position: absolute;
+    width: 20%;
+    font-size: 13px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    margin-left: 92px;
+    font-weight: lighter;
+    top: 16px;
+    background: #fff;
+    padding: 0 10px;
+}
+
+
+#login #inDiv {
+    margin-top: 35px;
+    margin-bottom: 17px;
+} 
+
+#login #inDiv img {
+    width: 30px;
+    height: 20px;
+    float: left;
+    margin-left: 80px;
+}
+#login #inDiv a {
+    text-decoration: none;
+    color:#1f386d;
+    margin-right: 93px;
+    font-size: 13px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 500;
+}
+
+#login #inDivDiv a{
+    text-decoration: none;
+    color: #000;
+    font-size: 11px;
+    font-family:'Helvetica', 'Arial', sans-serif; 
+    font-weight: lighter;
+}
+
+#stores {
+    /* margin-right: 223px;  */
+    width: 350px;
+    /* border:none; */
+    float: right;
+    margin-top: 6px;
+    margin-right: 223px;
+    height: 100px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+#stores #appstore {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    /* margin-top: 0 auto; */
+    /* position: absolute; */
+    margin-left: 3px;
+    float: left;
+    margin-top:-10px;
+    z-index:1;
+}
+
+#stores #play {
+    position: relative;
+    width: 127px;
+    height: 45px;
+    margin-top: -52px;
+    float: right;
+    z-index: 2;
+    margin-right: 38px;
+}
+
+#stores p {
+    font-weight: lighter;
+}
+
+#foot {
+    /* background-color: brown; */
+    float: right;
+    margin-top: 30px;
+    height: 147px;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    word-spacing: 11px;
+    line-height: 23px;
+    font-weight: lighter;
+    
+}
+
+#foot #pp a {
+    text-decoration: none;
+    color:rgb(39, 31, 31);
+}
+
+#foot #pp a span {
+    word-spacing: 2px;
+}
+
+#sel {
+    border: none;
+    width: 72px;
+    margin-left: 475px;
+    float: left;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 13px;
+}
+
+#p p {
+   margin-right: 457px;
+   float:right;
+   /* background-color: #1877f2; */
+   margin-top: -4px; 
+   font-size: 11px;
+}
